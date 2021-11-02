@@ -112,7 +112,7 @@ function listPrimeNumbers() {
     return results;
 }
 
-//Test cases if the functions are working as intended (uncomment to try them out)
+//Test cases to see if the functions are working as intended (uncomment to try them out)
 
 //First function tests
 //console.log(isPrime(2, 5, 8, 21, 13));
