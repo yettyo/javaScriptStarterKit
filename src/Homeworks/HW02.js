@@ -115,27 +115,30 @@ function listPrimeNumbers() {
     return results;
 }
 
-//Test cases to see if the functions are working as intended (uncomment to try them out)
+//Test cases to see if the functions are working as intended
 
 //First function tests
-//console.log(isPrime(2, 5, 8, 21, 13));
-//console.log(isPrime(3, 5, 91));
-//console.log(isPrime(-10, -1, 0, 1));
+console.log(isPrime(2, 5, 8, 21, 13));
+console.log(isPrime(3, 5, 91));
+console.log(isPrime(-10, -1, 0, 1));
 
 //Second function tests
-//console.log(isAmicable(220, 284));
-//console.log(isAmicable(59, 192));
-//console.log(isAmicable(5,5));
-//console.log(isAmicable(-2, 20));
-//console.log(isAmicable(1184, 1210));
+console.log(isAmicable(220, 284));
+console.log(isAmicable(59, 192));
+console.log(isAmicable(5,5));
+console.log(isAmicable(-2, 20));
+console.log(isAmicable(1184, 1210));
 
 //Third function tests
-//console.log(listPerfectNumbers());
+console.log(listPerfectNumbers());
 
 //Fourth function tests
-//console.log(listPrimeNumbers()); 
+//console.log(listPrimeNumbers()); //Uncomment to test it out for yourself!
 //Note that this command will only going to display the
-//first 100 element inside the array so we have to get creative to see the entire thing.
-//Here's the rest of the array.
+//first 100 element inside the array so we have to get creative to see the entire thing:
+//Uncomment to test it out for yourself!
 //console.log(listPrimeNumbers().slice(0,100)); 
 //console.log(listPrimeNumbers().slice(100));
+//Edit: After searching a little bit on the Internet, I found a way to display the entire
+//array elements without using splice() or a loop:
+console.dir(listPrimeNumbers(), {'maxArrayLength': null});
