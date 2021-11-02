@@ -68,7 +68,10 @@ function isAmicable(number1, number2) {
     }
 }
 /**
- * This function returns the array of all the perfect numbers from 1 to 1000.
+ * This function returns the array of all the perfect(mükemmel) numbers from 1 to 1000.
+ * Click on this link https://en.wikipedia.org/wiki/Perfect_number for more information
+ * about perfect numbers.
+ * Turkish version available on https://tr.wikipedia.org/wiki/Mükemmel_sayı
  * 
  * @returns {number[]} results
  */
